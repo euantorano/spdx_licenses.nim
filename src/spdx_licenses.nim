@@ -106,8 +106,8 @@ proc detailsAsync*(license: License): Future[LicenseDetails] =
   result = details(license, httpClient)
 
 proc getLicenseText*(licenseId: string,
-                                 httpClient: HttpClient | AsyncHttpClient):
-                                 Future[string] {.multisync.} =
+                     httpClient: HttpClient | AsyncHttpClient):
+                     Future[string] {.multisync.} =
   ## Get the license text for the given license ID using the given HTTP client.
   let url = licenseDetailsBaseSource & licenseId & ".json"
   let content = await httpClient.getContent(url)
