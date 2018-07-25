@@ -9,3 +9,7 @@ srcDir        = "src"
 # Dependencies
 
 requires "nim >= 0.18.0"
+
+task test, "Run the tests":
+  withDir "tests":
+    exec "nim c -r main"
