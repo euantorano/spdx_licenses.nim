@@ -1,4 +1,4 @@
-# spdx_licenses [![CircleCI](https://circleci.com/gh/euantorano/spdx_licenses.nim.svg?style=svg)](https://circleci.com/gh/euantorano/spdx_licenses.nim)
+# spdx_licenses [![CircleCI](https://circleci.com/gh/euantorano/spdx_licenses.nim.svg?style=svg)](https://circleci.com/gh/euantorano/spdx_licenses.nim) [![Build Status](https://travis-ci.org/euantorano/spdx_licenses.nim.svg?branch=master)](https://travis-ci.org/euantorano/spdx_licenses.nim)
 
 A library to retrieve the list of commonly used licenses from [the SPDX License List](https://spdx.org/licenses/).
 
@@ -17,6 +17,8 @@ Or to install it globally run:
 ```
 nimble install spdx_licenses
 ```
+
+## [Documentation](https://htmlpreview.github.io/?https://github.com/euantorano/spdx_licenses.nim/blob/master/docs/spdx_licenses.html)
 
 ## Usage
 
