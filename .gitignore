@@ -1,0 +1,8 @@
+nimcache
+nimsuggest.log
+.vscode
+
+# Binaries
+spdx_licenses
+*.exe
+tests/main
