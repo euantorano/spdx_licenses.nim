@@ -1,0 +1,15 @@
+License	spdx_licenses.html#License	spdx_licenses : License	
+LicenseDetails	spdx_licenses.html#LicenseDetails	spdx_licenses : LicenseDetails	
+LicenseList	spdx_licenses.html#LicenseList	spdx_licenses : LicenseList	
+getLicenseList	spdx_licenses.html#getLicenseList,AsyncHttpClient	spdx_licenses : getLicenseList(httpClient: AsyncHttpClient;\n               licenseListSource = defaultLicenseListSource): Future[LicenseList]	
+getLicenseList	spdx_licenses.html#getLicenseList,HttpClient	spdx_licenses : getLicenseList(httpClient: HttpClient;\n               licenseListSource = defaultLicenseListSource): LicenseList	
+getLicenseList	spdx_licenses.html#getLicenseList,	spdx_licenses : getLicenseList(licenseListSource = defaultLicenseListSource): LicenseList	
+getLicenseListAsync	spdx_licenses.html#getLicenseListAsync,	spdx_licenses : getLicenseListAsync(licenseListSource = defaultLicenseListSource): Future[\n    LicenseList]	
+details	spdx_licenses.html#details,License,AsyncHttpClient	spdx_licenses : details(license: License; httpClient: AsyncHttpClient): Future[LicenseDetails]	
+details	spdx_licenses.html#details,License,HttpClient	spdx_licenses : details(license: License; httpClient: HttpClient): LicenseDetails	
+details	spdx_licenses.html#details,License	spdx_licenses : details(license: License): LicenseDetails	
+detailsAsync	spdx_licenses.html#detailsAsync,License	spdx_licenses : detailsAsync(license: License): Future[LicenseDetails]	
+getLicenseText	spdx_licenses.html#getLicenseText,string,AsyncHttpClient	spdx_licenses : getLicenseText(licenseId: string; httpClient: AsyncHttpClient): Future[string]	
+getLicenseText	spdx_licenses.html#getLicenseText,string,HttpClient	spdx_licenses : getLicenseText(licenseId: string; httpClient: HttpClient): string	
+getLicenseText	spdx_licenses.html#getLicenseText,string	spdx_licenses : getLicenseText(licenseId: string): string	
+getLicenseTextAsync	spdx_licenses.html#getLicenseTextAsync,string	spdx_licenses : getLicenseTextAsync(licenseId: string): Future[string]	

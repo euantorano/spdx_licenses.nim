@@ -10,6 +10,9 @@ srcDir        = "src"
 
 requires "nim >= 0.18.0"
 
+task docs, "Create documentation":
+  exec "nim doc --index:on -o:docs/spdx_licenses.html src/spdx_licenses.nim"
+
 task test, "Run the tests":
   withDir "tests":
     exec "nim c -r main"
