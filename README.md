@@ -20,9 +20,13 @@ nimble install spdx_licenses
 
 ## Usage
 
+*There are async versions of all of the exported methods. For cases where you pass in a custom `AsyncHttpClient`, simply call the procedures as normal. For cases when using the default `HttpClient`, the call is postfixed with `Async` (eg: `getLicenseList()` is `getLicenseListAsync()`).*
+
 - Retrieving a list of all licenses, as a table keyed by license ID:
 
 ```nim
+import spdx_licenses
+
 # You can also pass in your own custom `HttpClient` instance if you have one you wish to re-use
 let licenses = getLicenseList()
 
@@ -35,6 +39,8 @@ for lic in licenses.keys:
 - Getting the license text for a specific license by license ID:
 
 ```nim
+import spdx_licenses
+
 # You can also pass in your own custom `HttpClient` instance if you have one you wish to re-use
 let licenseText = getLicenseText("BSD-3-Clause")
 
